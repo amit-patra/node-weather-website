@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Handlebar Test</title>
+    <link rel="icon" href="./img/weather.png"/>
+    <link rel="stylesheet" href="./css/style.css">
+  
+</head>
+<body>
+     <div class="main-content">
+          {{>header}}
+     </div>
+   <form>
+       <input placeholder="Location">
+       <button>Search</button>
+
+       <p id='message-1'></p>
+       <p id='message-2'></p>
+   </form>
+    {{>footer}}
+</body>
+  <script src="./js/app.js"></script>
+</html>
